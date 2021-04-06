@@ -17,5 +17,23 @@ You can use **CoLES** to learn meneingfull data representation for each dataset(
 
 Notebook contains as Neural Network as DataGenerator for it.<br/>
 
+#### DataGenerator
+**Input**
+- **df**: Pandas Dataframe
+- **group_column**: column based on which need to group data. E.g Client id
+- **output_column**: output column for downstrim task.
+- **column_order**: Dictinary which has categoricals and numericalsfileds, where each of one contains list of column names.
+- **batch_size**
+- **k**: count of sub-sequances
+- **subseq_generator_type**: In future there will be many types of subsequance and pair genreators
+
+#### CoLES NN
+**Input**
+- **categorical_embeddings_info**: categorcial feature name and embedding size. Tou can get it with DataGenerator.vocab_map
+- **numerical_variables_info**: list of names numerical variables
+- **input_length**: length of sub sequances. You can get if with DataGenerator.k
+- **rnn_type**: 'simple','lstm','gru'
+- **rnn_units**: number of neurons
+
 
 
