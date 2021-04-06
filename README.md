@@ -29,9 +29,9 @@ Notebook contains as Neural Network as DataGenerator for it.<br/>
 
 #### CoLES NN
 **Input**
-- **categorical_embeddings_info**: categorcial feature name and embedding size. Tou can get it with DataGenerator.vocab_map
+- **categorical_embeddings_info**: categorcial feature name and embedding size. Tou can get it with **DataGenerator**.vocab_map
 - **numerical_variables_info**: list of names numerical variables
-- **input_length**: length of sub sequances. You can get if with DataGenerator.k
+- **input_length**: length of sub sequances. You can get if with **DataGenerator**.k
 - **rnn_type**: 'simple','lstm','gru'
 - **rnn_units**: number of neurons
 
