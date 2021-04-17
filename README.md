@@ -11,7 +11,6 @@ Reason of different notebooks for data preprocessing and sparse matrix creation,
 **Note:** It is possible you will need to run for training and test data creation seperatly(shut down notebook after preprocessing of training or test data).
 
 ### CoLES: Contrastive Learning for Event Sequences with Self-Supervision 
-The **CoLES** folder contains implementation of paper https://openreview.net/forum?id=tADlrawCrVU. <br/>
 
 You can use **CoLES** to learn meneingfull data representation for each dataset( from other folders in repository).<br/> After learning meaningfull representation you can use learned embeddings for downstrim tasks.
 
